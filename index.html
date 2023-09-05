@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preet's - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Preet's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection"> 
+                <span class="purple">Preet</span> that is me.
+                <div>
+                    and I am passionate for
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="rightSection"> 
+                <img src="/Portfolio/Images/Preet_Pic.jpeg" alt="png">    
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <div class="secondFirstSection">
+                <img src="/Portfolio/Images/Preet_Pic2.jpeg" alt="">
+            </div>
+            <div class="secondSecondSection">
+                <h2>About Me</h2>
+                <pre>Born in Surat. Preet means Love.
+Suratis are known for their love for food and 
+tastes. With food I also enjoy programming.
+                </pre>
+                <p>My passion is to solve the unsolved mysteries of Technical World.</p>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <div class="education">
+                <h2>Education</h2>
+                <br>
+                <div class="Education" id="box">
+                    <div class="details">
+                        <h3>B.Tech Information Technology</h3>
+                        <p>Second Year Student - Charotar University of Science and Technology</p>
+                        <span>(CHARUSAT)</span>
+                        <span>2022 - 2026</span>
+                    </div>
+                    <button id="button">Currently</button>
+                </div>
+                <br>
+                <div class="Education" id="box">
+                    <div class="details">
+                        <h3>12th board</h3>
+                        <p>P.P. Savani Chaitanya Vidhya Sankul, Surat</p>
+                        <p>NCERT - National Council of Education Research and Training</p>
+                    </div>
+                    <div id="button">75%</div>
+                </div>
+                <br>
+                <div class="Education" id="box">
+                    <div class="details">
+                        <h3>10th board</h3>
+                        <p>Sungrace Vidhyalaya,Surat<span>(2019 - 2022)</span></p>
+                        <p>GSEB - Gujarat State Education Board</p>
+                    </div>
+                    <div id="button">80%</div>
+                </div>
+            </div>
+            <div class="experience">
+                <h2>Experience</h2>
+                <br>
+                <div class="Education" id="box">
+                    <div class="details">
+                        <h3>NSS Student Coordinator</h3>
+                        <p>Charotar University Science and Technology</p>
+                        <span>(CHARUSAT)</span>
+                        <span>From January 2023</span>
+                    </div>
+                    <div id="button">Currently</div>
+                </div>
+                <br>
+                <div class="Education" id="box">
+                    <div class="details">
+                        <h3>CLUMOSS Internship</h3>
+                        <p>Software Engineer intern @CLUMOSS</p>
+                        <span>From August 2023</span>
+                    </div>
+                    <div id="button">Currently</div>
+                </div>
+                <br>
+            </div>
+        </section>
+    </main>
+    <br>
+    <hr>
+    <br>
+    <footer>
+        <br>
+        <div class="footer">
+            <h2>Contact Me</h2>
+            <div class="footerFirstSection">
+                <div class="flex">
+                    <h2>Mobile No :- </h2>
+                    <p>+919408338778</p>
+                </div>
+                <div class="flex">
+                    <h2>Email :- </h2>
+                    <p>preetchauhan421@gmail.com</p>
+                </div>
+                <div class="flex">
+                    <h2><a href="https://www.linkedin.com/in/preet-chauhan-51aab2258/">LinkedIn</a></h2>
+                </div>
+                <div class="flex">
+                    <h2><a href="https://github.com/PreetChauhan111">Github</a></h2>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            &copy; Preet Chauhan All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['Software Development', 'Web Development'],
+        typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
